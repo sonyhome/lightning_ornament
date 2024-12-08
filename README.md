@@ -1,7 +1,10 @@
 # A Christmas Tree Ornament containing clouds with lightning strikes
 Code for a Christmas Tree Ornament containing clouds with lightning strikes, for Arduino and AtTiny controllers.
 
-<img src="README_DATA/CLOSING_LIGHTBULB.jpg" width="320" align="middle" /> ![VIDEO1.MOV](README_DATA/VIDEO1.MOV) ![VIDEO2.MOV](README_DATA/VIDEO2.MOV)
+<img src="README_DATA/CLOSING_LIGHTBULB.jpg" width="320" align="middle" /> <img src="README_DATA/FINAL.png" width="320" align="middle" />
+
+![VIDEO1.MOV](README_DATA/VIDEO1.MOV) ![VIDEO2.MOV](README_DATA/VIDEO2.MOV)
+
 ## Code overview
 
 The code defines a main lightning strike and secondary "ripple" lightning in the ***thunder*** global variable structre. There is a long delay for the main lightning, and shorter delays for the ripples (min and max timings are in msecs). These delays are random, picked between the hard-coded min and the max values.
