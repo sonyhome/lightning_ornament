@@ -3,7 +3,9 @@ Code for a Christmas Tree Ornament containing clouds with lightning strikes, for
 
 <img src="README_DATA/CLOSING_LIGHTBULB.jpg" width="320" align="middle" /> <img src="README_DATA/FINAL.png" width="320" align="middle" />
 
-![VIDEO1.MOV](README_DATA/VIDEO1.MOV) ![VIDEO2.MOV](README_DATA/VIDEO2.MOV)
+[Download VIDEO1.MOV (day)](https://github.com/sonyhome/lightning_ornament/raw/refs/heads/main/README_DATA/VIDEO1.MOV)
+
+[Download VIDEO2.MOV (night)](https://github.com/sonyhome/lightning_ornament/raw/refs/heads/main/README_DATA/VIDEO2.MOV)
 
 ## Code overview
 
