@@ -7,6 +7,18 @@ Code for a Christmas Tree Ornament containing clouds with lightning strikes, for
 
 [Download VIDEO2.MOV (night)](https://github.com/sonyhome/lightning_ornament/raw/refs/heads/main/README_DATA/VIDEO2.MOV)
 
+
+## Schematics
+
+The circuit design is minimalist, to allow it to be as compact as possible: It's literally just a microcontroller with LEDs attached directly to its output pins. We don't add resistors or any form of voltage regulation for the LEDs.
+
+![Circuit Schematics](README_DATA/SCHEMA.jpg)
+
+This minimalism is possible because the LEDs are turned on for a millisecond and off for multiple seconds, allowing them to cool off and recover from being over-driven. This allows them also to flash brighter.
+
+The only voltage consideration is to keep the supply voltage of the controller within its specifications. It is max 5.5V for AtTiny85, so we add a diode to drop the battery voltage by a volt when using two CR2030 button batteries. They may provide up to 6.6V when new.
+
+
 ## Code overview
 
 The code defines a main lightning strike and secondary "ripple" lightning in the ***thunder*** global variable structre. There is a long delay for the main lightning, and shorter delays for the ripples (min and max timings are in msecs). These delays are random, picked between the hard-coded min and the max values.
@@ -191,6 +203,8 @@ Note this has implications on where a diode could be put on the pins of the cont
 ## Soldering the project
 
 The project took me about 2 hours to put together
+
+![Circuit Schematics](README_DATA/PARTS.jpg)
 
 Materials
 * One transparent christmas ornament or other container
